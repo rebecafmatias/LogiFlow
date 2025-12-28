@@ -27,5 +27,5 @@ data/**/*
 .DS_Store
 
 # SQLite temporary files
-*.db-shm
-*.db-wal
+ingestion_state.db-shm
+ingestion_state.db-wal
