@@ -138,4 +138,6 @@ def generate_mock_data():
 
 
 if __name__ == "__main__":
+    print(f"BASE_DIR: {BASE_DIR}")
+    print(f"\nOUTPUT_PATH: {OUTPUT_PATH}")
     generate_mock_data()
