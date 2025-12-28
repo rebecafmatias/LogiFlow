@@ -12,8 +12,9 @@ fake = Faker("en_US")
 ORDER_COUNT = 50
 UPDATE_COUNT = 150
 # Path management using Pathlib for cross-platform compatibility
-BASE_DIR = Path(__file__).parent.parent
+BASE_DIR = Path(__file__).parent.parent.parent
 OUTPUT_PATH = BASE_DIR / "data" / "raw"
+
 
 # --- LOGISTICS STATE MACHINE ---
 NEXT_STEP_MAPPING = {
