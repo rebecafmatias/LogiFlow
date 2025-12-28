@@ -1,14 +1,12 @@
 # Python - Ficheiros temporários e compilados
-__pycache__/
+*/__pycache__
 *.py[cod]
 *$py.class
 .venv/
 .pytest_cache/
 .mypy_cache/
 
-# Ambientes (pyenv e dependências)
-.python-version
-poetry.lock
+
 # Nota: Alguns preferem commitar o poetry.lock, mas se estiveres a testar muito,
 # podes ignorá-lo até teres uma versão estável. Em produção, recomenda-se commitar.
 
