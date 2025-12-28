@@ -25,3 +25,7 @@ data/**/*
 .vscode/
 .idea/
 .DS_Store
+
+# SQLite temporary files
+*.db-shm
+*.db-wal
